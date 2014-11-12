@@ -12,6 +12,7 @@ def index(request):
 
 def league(request):
     teams = Team.objects.order_by('-points', '-goal_difference', 'name')
+    teams = Team.objects.order_by('-rating', '-goal_difference', 'name')
     context = {'teams': teams}
     return render(request, 'teams/league.html', context)
 
@@ -67,6 +68,7 @@ def update(request):
             
             # calculate elo rating
             goal_difference = abs(home_team.goals_for - away_team.goals_against)
+            
             # home
             elo_rating = EloFootballRating(20)
             home_team.rating += elo_rating.calculate(home_team.rating, away_team.rating, goal_difference, home_team_result) 

@@ -8,7 +8,7 @@ django.setup()
 
 from teams.models import Team, Match
 
-Match.objects.all().delete()
+# Match.objects.all().delete()
 
 with open('E0.csv', 'rb') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
