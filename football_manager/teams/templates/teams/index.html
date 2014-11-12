@@ -1,9 +1,4 @@
-{% if teams %}
-    <ul>
-        {% for team in teams %}
-            <li>{{ team.name }}</li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>No teams to display.</p>
-{% endif %}
+<ul>
+    <li><a href="/teams/league">show league</a></li>
+    <li><a href="/teams/update">update</a></li>
+</ul>

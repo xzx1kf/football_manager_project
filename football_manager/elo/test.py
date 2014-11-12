@@ -10,3 +10,9 @@ p = rating_system.calculate(team_a.rating, team_b.rating, 2, Result.WIN)
 print "Original Rating %f" % team_a.rating
 print "Points gained: %f" % p
 print "New rating is: %f" % (team_a.rating + p)
+
+p = rating_system.calculate(team_b.rating, team_a.rating, 2, Result.LOSE)
+
+print "Original Rating %f" % team_a.rating
+print "Points gained: %f" % p
+print "New rating is: %f" % (team_a.rating + p)
