@@ -1,0 +1,9 @@
+{% if teams %}
+    <ul>
+        {% for team in teams %}
+            <li>{{ team.name }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No teams to display.</p>
+{% endif %}
