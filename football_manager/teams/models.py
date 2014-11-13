@@ -12,6 +12,7 @@ class Team(models.Model):
     goal_difference = models.IntegerField(default=0)
     points = models.IntegerField(default=0)
     rating = models.IntegerField(default=0)
+    position = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name

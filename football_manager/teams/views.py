@@ -1,3 +1,5 @@
+from django.db.models import Q
+from django.http import Http404
 from django.shortcuts import render
 
 from teams.models import Team
@@ -19,6 +21,18 @@ def league(request):
     context = {'teams': teams}
     return render(request, 'teams/league.html', context)
 
+def team(request, team_id):
+    try:
+        team = Team.objects.get(pk=team_id)
+        matches = Match.objects.filter(Q(home_team=team.id) | Q(away_team=team.id)).order_by('date')
+        
+        context = {
+            'team': team,
+            'matches': matches,
+        }
+    except Team.DoesNotExist:
+        raise Http404
+    return render(request, 'teams/team.html', context)
 
 def update(request):
     
@@ -86,6 +100,15 @@ def update(request):
             home_team.save()
             away_team.save()
             match.save()
+            
+        # Update league position.
+        teams = Team.objects.all().order_by('-points', '-goal_difference', 'name')
+        position = 1
+        for team in teams:
+            team.position = position
+            position += 1
+            team.save()
+            
     else:
         pass
         

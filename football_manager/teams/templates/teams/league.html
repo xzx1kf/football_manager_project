@@ -21,7 +21,7 @@
         {% for team in teams %}
             <tr>
                 <td>{{ forloop.counter }}</td>
-                <td>{{ team.name }}</td>
+                <td><a href="/football/team/{{ team.id }}">{{ team.name }}</a></td>
                 <td>{{ team.played }}</td>
                 <td>{{ team.won }}</td>
                 <td>{{ team.drawn }}</td>

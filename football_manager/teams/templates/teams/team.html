@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Team - {{ team.name }}{% endblock %}
+
+{% block content %}
+<div id='team_info'>
+    <p>
+    <h3>{{ team.name }}</h3>
+    League Position: {{ team.position }}<br>
+    Played: {{ team.played }}<br>
+    Won: {{ team.won }}<br>
+    Lost: {{ team.lost }}<br>
+    Drawn: {{ team.drawn }}<br>
+    Points: {{ team.points }}<br>
+    Rating: {{ team.rating }}
+    </p>
+</div>
+
+
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Home Team</th>
+        <th></th>
+        <th>Away Team</th>
+        <th>HG</th>
+        <th>AG</th>
+    </tr>
+{% for match in matches %}
+    <tr>
+        <td>{{ match.date }}</td>
+        <td>{{ match.home_team }}</td>
+        <td>vs</td>
+        <td>{{ match.away_team }}</td>
+        <td>{{ match.home_goals }}</td>
+        <td>{{ match.away_goals }}</td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}

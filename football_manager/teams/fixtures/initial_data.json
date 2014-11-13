@@ -12,7 +12,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -28,7 +29,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -44,7 +46,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -60,7 +63,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -92,7 +96,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -108,7 +113,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -124,7 +130,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -140,7 +147,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -156,7 +164,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -172,7 +181,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -188,7 +198,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -204,7 +215,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -220,7 +232,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -236,7 +249,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -252,7 +266,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -268,7 +283,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -284,7 +300,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -300,7 +317,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   },
   {
@@ -316,7 +334,8 @@
       "goals_against": 0,
       "goal_difference": 0,
       "points": 0,
-      "rating": 1000
+      "rating": 1000,
+      "position": 0
     }
   }
 ]

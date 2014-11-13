@@ -1,14 +1,13 @@
 TODO:
 
-1.  From the league table click on a team and view all the previous 
-    matches. 
-
-2.  Make the league table sortable on different criteria 
+1.  Make the league table sortable on different criteria 
     (tablesorter.com)
 
-3.  Style the league table. 
+2.  Style the league table. 
     www.premierleague.com/en-gb/matchday/league-table.html looks nice.
     
-4.  Rename teams app to football.
+3.  Rename teams app to football.
 
-5.  Add css.
+4.  Add css.
+
+5.  Add form. Include a form for the last 6 matches e.g. WWWLWD

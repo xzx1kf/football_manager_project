@@ -10,7 +10,7 @@
         </tr>
         {% for team in teams %}
             <tr>
-                <td>{{ team.name }}</td>
+                <td><a href="/football/team/{{ team.id }}">{{ team.name }}</a></td>
             </tr>
         {% endfor %}
     </table>
