@@ -1,4 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}League{% endblock %}
+
+{% block content %}
+
+<p>Clicking on the update button will trigger any unprocessed matches
+to be processed and included in the various views.</p>
+
 <form action="" method="post">
 {% csrf_token %}
 <input type="submit" value="Update" />
 </form>
+{% endblock %}

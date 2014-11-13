@@ -7,14 +7,18 @@ from elo.elo import Result, EloFootballRating
 
 # Create your views here.
 def index(request):
-    context = {}
+    teams = Team.objects.order_by('name')
+    context = {'teams': teams}
     return render(request, 'teams/index.html', context)
+
 
 def league(request):
     teams = Team.objects.order_by('-points', '-goal_difference', 'name')
-    teams = Team.objects.order_by('-rating', '-goal_difference', 'name')
+    #teams = Team.objects.order_by('-rating', '-goal_difference', 'name')
+    #teams = Team.objects.order_by('name')
     context = {'teams': teams}
     return render(request, 'teams/league.html', context)
+
 
 def update(request):
     

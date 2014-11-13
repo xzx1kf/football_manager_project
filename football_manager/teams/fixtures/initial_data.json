@@ -1,0 +1,323 @@
+[
+  {
+    "model": "teams.team",
+    "pk": 1,
+    "fields": {
+      "name": "Arsenal",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 2,
+    "fields": {
+      "name": "Aston Villa",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 3,
+    "fields": {
+      "name": "Burnley",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 4,
+    "fields": {
+      "name": "Chelsea",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 5,
+    "fields": {
+      "name": "Crystal Palace",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 6,
+    "fields": {
+      "name": "Everton",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 7,
+    "fields": {
+      "name": "Hull",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 8,
+    "fields": {
+      "name": "Leicester",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 9,
+    "fields": {
+      "name": "Liverpool",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 10,
+    "fields": {
+      "name": "Man City",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 11,
+    "fields": {
+      "name": "Man United",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 12,
+    "fields": {
+      "name": "Newcastle",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 13,
+    "fields": {
+      "name": "QPR",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 14,
+    "fields": {
+      "name": "Southampton",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 15,
+    "fields": {
+      "name": "Stoke",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 16,
+    "fields": {
+      "name": "Sunderland",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 17,
+    "fields": {
+      "name": "Swansea",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 18,
+    "fields": {
+      "name": "Tottenham",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 19,
+    "fields": {
+      "name": "West Brom",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 20,
+    "fields": {
+      "name": "West Ham",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "goal_difference": 0,
+      "points": 0,
+      "rating": 1000
+    }
+  }
+]
+  

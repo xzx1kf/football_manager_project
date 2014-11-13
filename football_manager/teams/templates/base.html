@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Football Manager{% endblock %}</title>
+</head>
+
+<body>
+    <div id="nav">
+        {% block nav %}
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/teams/league/">League</a></li>
+            <li><a href="/teams/update/">Update</a></li>
+        </ul>
+        {% endblock %}
+    </div>
+    
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

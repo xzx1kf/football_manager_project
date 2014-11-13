@@ -1,14 +1,15 @@
 TODO:
 
-From the league table click on a team and view all the previous matches. 
+1.  From the league table click on a team and view all the previous 
+    matches. 
 
-Make the league table sortable on different criteria (tablesorter.com)
+2.  Make the league table sortable on different criteria 
+    (tablesorter.com)
 
-Sort the links out so that the league is at /league and not /teams/league.
-The same goes for update. 
+3.  Sort the links out so that the league is at /league and not 
+    /teams/league.The same goes for update. 
 
-The import needs to check for duplicate matches. 
-
-Style the league table. www.premierleague.com/en-gb/matchday/league-table.html
-looks nice.
-
+4.  Style the league table. 
+    www.premierleague.com/en-gb/matchday/league-table.html looks nice.
+    
+5.  Rename teams app to football.

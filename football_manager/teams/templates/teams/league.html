@@ -1,3 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}League{% endblock %}
+
+{% block content %}
 {% if teams %}
     <table>
         <tr>
@@ -32,3 +37,4 @@
 {% else %}
     <p>No teams to display.</p>
 {% endif %}
+{% endblock %}

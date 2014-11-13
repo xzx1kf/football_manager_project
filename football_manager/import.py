@@ -8,8 +8,6 @@ django.setup()
 
 from teams.models import Team, Match
 
-# Match.objects.all().delete()
-
 with open('E0.csv', 'rb') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     next(csvreader, None)  # skip the header row
@@ -28,9 +26,22 @@ with open('E0.csv', 'rb') as csvfile:
           away_team=away_team,
           home_goals=row[4],
           away_goals=row[5],
-          result=row[6])
+          result=row[6],
+          processed=False)
 
-        # ignore duplicates
-
-        match.save()
-        
+        try:
+            # ignore duplicates
+            m = Match.objects.get(div=row[0], 
+              date=date.strftime("%Y-%m-%d"), 
+              home_team=home_team,
+              away_team=away_team,
+              home_goals=row[4],
+              away_goals=row[5],
+              result=row[6])
+        except Match.DoesNotExist:
+            print "Saving match"
+            match.save()
+        except Match.MultipleObjectsReturned:
+            print "Matches more than one match"
+        except:
+            print "Match exists already"

@@ -1,4 +1,20 @@
-<ul>
-    <li><a href="/teams/league">show league</a></li>
-    <li><a href="/teams/update">update</a></li>
-</ul>
+{% extends "base.html" %}
+
+{% block title %}Teams{% endblock %}
+
+{% block content %}
+{% if teams %}
+    <table>
+        <tr>
+            <th>Team</th>
+        </tr>
+        {% for team in teams %}
+            <tr>
+                <td>{{ team.name }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>No teams to display.</p>
+{% endif %}
+{% endblock %}
