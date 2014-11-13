@@ -26,7 +26,7 @@
         <th>HG</th>
         <th>AG</th>
     </tr>
-{% for match in matches %}
+    {% for match in matches %}
     <tr>
         <td>{{ match.date }}</td>
         <td>{{ match.home_team }}</td>
@@ -35,6 +35,6 @@
         <td>{{ match.home_goals }}</td>
         <td>{{ match.away_goals }}</td>
     </tr>
-{% endfor %}
+    {% endfor %}
 </table>
 {% endblock %}

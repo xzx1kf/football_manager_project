@@ -11,3 +11,7 @@ TODO:
 4.  Add css.
 
 5.  Add form. Include a form for the last 6 matches e.g. WWWLWD
+
+6.  Include a rating for home and away team on Match. This would allow
+    a historical view of the rating. Would need updating in the update
+    view. 
