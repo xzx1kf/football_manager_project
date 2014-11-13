@@ -6,10 +6,9 @@ TODO:
 2.  Make the league table sortable on different criteria 
     (tablesorter.com)
 
-3.  Sort the links out so that the league is at /league and not 
-    /teams/league.The same goes for update. 
-
-4.  Style the league table. 
+3.  Style the league table. 
     www.premierleague.com/en-gb/matchday/league-table.html looks nice.
     
-5.  Rename teams app to football.
+4.  Rename teams app to football.
+
+5.  Add css.
