@@ -27,6 +27,8 @@ with open('E0.csv', 'rb') as csvfile:
           home_goals=row[4],
           away_goals=row[5],
           result=row[6],
+          home_rating=0,
+          away_rating=0,
           processed=False)
 
         try:

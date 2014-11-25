@@ -25,6 +25,8 @@ class Match(models.Model):
     away_team = models.ForeignKey(Team, related_name='away_team')
     home_goals = models.IntegerField()
     away_goals = models.IntegerField()
+    home_rating = models.IntegerField()
+    away_rating = models.IntegerField()
     result = models.CharField(max_length=1)
     processed = models.BooleanField(default=False)
 

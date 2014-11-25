@@ -48,6 +48,9 @@ def update(request):
             home_team = Team.objects.get(name=match.home_team)
             away_team = Team.objects.get(name=match.away_team)
             
+            match.home_rating = home_team.rating
+            match.away_rating = away_team.rating
+            
             # update played
             home_team.played += 1
             away_team.played += 1
